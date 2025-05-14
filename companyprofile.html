@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dadiedonta Enterprises Limited - Premium Recruitment Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="co.css">
+</head>
+<body>
+    <div class="print-container">
+        <!-- Print Button -->
+        <div class="no-print fixed top-4 right-4 z-50">
+            <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center shadow-lg">
+                <i class="fas fa-print mr-2"></i> Print Profile
+            </button>
+        </div>
+        
+        <!-- Cover Page -->
+        <div class="page-section gradient-bg text-white hero-pattern">
+            <div class="flex flex-col items-center justify-center h-full text-center py-20">
+                <div class="bg-white p-4 rounded-full shadow-xl mb-8">
+                    <div class="w-40 h-40 rounded-full overflow-hidden flex items-center justify-center border-4 border-white">
+                        <img src="logo.jpg" alt="Dadiedonta Logo" class="w-full h-full object-contain">
+                    </div>
+                </div>
+                <h1 class="text-5xl font-bold mb-2">DADIEDONTA</h1>
+                <h2 class="text-3xl font-semibold mb-6">Enterprises Limited</h2>
+                <p class="text-xl max-w-2xl mx-auto opacity-90 mb-8">Kenya's Premier Recruitment Agency for Gulf Opportunities</p>
+                <div class="w-48 h-1 bg-white bg-opacity-50 rounded-full mb-8"></div>
+                <p class="text-lg">Company Profile • <span id="year"></span></p>
+            </div>
+        </div>
+        
+        <!-- Company Overview -->
+        <div class="page-section">
+            <div class="flex flex-col md:flex-row h-full">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                         alt="Our Team" class="w-full h-full object-cover rounded-xl shadow-lg print:shadow-none">
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-3xl font-semibold text-blue-800 mb-6 print:text-blue-900">Company Overview</h3>
+                    
+                    <div class="mb-8">
+                        <div class="flex items-start mb-6">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 flex-shrink-0 print:bg-blue-50 print:border print:border-blue-200">
+                                <i class="fas fa-bullseye text-blue-600 text-xl print:text-blue-700"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-blue-700 mb-2 print:text-blue-800">Our Mission</h4>
+                                <p class="text-gray-700 print:text-black">To ethically connect skilled Kenyan professionals with rewarding career opportunities in Gulf countries through comprehensive recruitment solutions and cultural integration support.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start mb-6">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 flex-shrink-0 print:bg-blue-50 print:border print:border-blue-200">
+                                <i class="fas fa-eye text-blue-600 text-xl print:text-blue-700"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-blue-700 mb-2 print:text-blue-800">Our Vision</h4>
+                                <p class="text-gray-700 print:text-black">To be East Africa's most trusted recruitment partner for Gulf employment, recognized for our integrity, professionalism, and transformative impact on Kenyan families.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-blue-50 p-6 rounded-xl print:border print:border-blue-200">
+                        <h4 class="text-xl font-semibold text-blue-700 mb-4 print:text-blue-800">Core Values</h4>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="flex items-center">
+                                <div class="bg-blue-100 p-2 rounded-full mr-3 print:bg-blue-50 print:border print:border-blue-200">
+                                    <i class="fas fa-check-circle text-blue-600 text-sm print:text-blue-700"></i>
+                                </div>
+                                <span class="text-gray-700 print:text-black">Kenyan Integrity</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-blue-100 p-2 rounded-full mr-3 print:bg-blue-50 print:border print:border-blue-200">
+                                    <i class="fas fa-check-circle text-blue-600 text-sm print:text-blue-700"></i>
+                                </div>
+                                <span class="text-gray-700 print:text-black">Transparency</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-blue-100 p-2 rounded-full mr-3 print:bg-blue-50 print:border print:border-blue-200">
+                                    <i class="fas fa-check-circle text-blue-600 text-sm print:text-blue-700"></i>
+                                </div>
+                                <span class="text-gray-700 print:text-black">Professionalism</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-blue-100 p-2 rounded-full mr-3 print:bg-blue-50 print:border print:border-blue-200">
+                                    <i class="fas fa-check-circle text-blue-600 text-sm print:text-blue-700"></i>
+                                </div>
+                                <span class="text-gray-700 print:text-black">Cultural Respect</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Office Gallery -->
+        <div class="page-section">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-semibold text-blue-800 mb-2">Our Nairobi Headquarters</h3>
+                <p class="text-gray-600 max-w-2xl mx-auto">Located in the heart of Kenya's capital, our modern facility serves as the hub for all recruitment operations</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="relative rounded-xl overflow-hidden shadow-lg h-64">
+                    <img src="reception.jpg" 
+                         alt="Reception" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
+                        <p class="text-white font-medium">Welcoming Reception Area</p>
+                    </div>
+                </div>
+                
+                <div class="relative rounded-xl overflow-hidden shadow-lg h-64">
+                    <img src="meeting.jpg" 
+                         alt="Meeting Room" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
+                        <p class="text-white font-medium">Consultation Rooms</p>
+                    </div>
+                </div>
+                
+                <div class="relative rounded-xl overflow-hidden shadow-lg h-64">
+                    <img src="interview.jpg" 
+                         alt="Training" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
+                        <p class="text-white font-medium">Pre-Departure Training</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-blue-50 rounded-xl p-8">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/3 mb-6 md:mb-0">
+                        <img src="meet.jpg" 
+                             alt="Nairobi" class="w-full rounded-lg shadow-md">
+                    </div>
+                    <div class="md:w-2/3 md:pl-8">
+                        <h4 class="text-xl font-semibold text-blue-700 mb-4">Strategic Location in Nairobi</h4>
+                        <p class="text-gray-700 mb-4">Our headquarters in Nairobi's central business district provides convenient access for candidates from across Kenya. The facility includes:</p>
+                        <ul class="grid grid-cols-2 gap-2 text-gray-700">
+                            <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Interview rooms</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Document processing</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Training facilities</li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Client meeting spaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Leadership Team -->
+        <div class="page-section">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-semibold text-blue-800 mb-2">Meet Our Leadership</h3>
+                <p class="text-gray-600 max-w-2xl mx-auto">Experienced professionals guiding Kenya's premier Gulf recruitment agency</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto mb-12">
+                <!-- Director -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden team-card transition duration-300 h-full border border-blue-100 print:shadow-none">
+                    <div class="flex flex-col md:flex-row items-center p-8 gap-8">
+                        <div class="w-40 h-40 rounded-full overflow-hidden flex-shrink-0 border-4 border-blue-50 shadow-lg print:border-blue-100">
+                            <img src="evelyn.jpg" 
+                                 alt="Director" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex-1 text-left">
+                            <h4 class="font-bold text-2xl text-blue-800 mb-2">Everlyne Namwendwa</h4>
+                            <p class="text-blue-600 font-medium mb-4 inline-block px-4 py-1 bg-blue-50 rounded-full print:border print:border-blue-200">Founder & Director</p>
+                            <p class="text-gray-700 mb-4 print:text-black">15+ years in international recruitment with deep connections across Gulf countries. Founded Dadiedonta in 2010 to create ethical opportunities for Kenyans abroad.</p>
+                            <div class="pt-4 border-t border-blue-100">
+                                <p class="text-sm italic text-gray-600 print:text-gray-800">"We measure our success by the positive impact on Kenyan families through overseas employment."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Operations Manager -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden team-card transition duration-300 h-full border border-blue-100 print:shadow-none">
+                    <div class="flex flex-col md:flex-row items-center p-8 gap-8">
+                        <div class="w-40 h-40 rounded-full overflow-hidden flex-shrink-0 border-4 border-blue-50 shadow-lg print:border-blue-100">
+                            <img src="phy.jpg" 
+                                 alt="Operations Manager" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex-1 text-left">
+                            <h4 class="font-bold text-2xl text-blue-800 mb-2">Phylis Awinja</h4>
+                            <p class="text-blue-600 font-medium mb-4 inline-block px-4 py-1 bg-blue-50 rounded-full print:border print:border-blue-200">Operations Manager</p>
+                            <p class="text-gray-700 mb-4 print:text-black">Leads our Kenyan recruitment team with a focus on efficiency and candidate experience. 10 years specializing in Gulf placements.</p>
+                            <div class="pt-4 border-t border-blue-100">
+                                <p class="text-sm italic text-gray-600 print:text-gray-800">"Every candidate deserves personalized attention and clear communication throughout the process."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Staff Testimonials -->
+            <div class="bg-blue-50 rounded-xl p-8 print:mt-16 print:border print:border-blue-200">
+                <h4 class="text-xl font-semibold text-blue-700 mb-6 text-center print:text-blue-800">Voices From Our Team</h4>
+                <div class="grid md:grid-cols-2 gap-6 print:gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-sm print:shadow-none print:border print:border-blue-100">
+                        <div class="flex items-center mb-4">
+                            <div class="w-14 h-14 rounded-full bg-blue-100 overflow-hidden mr-4 print:border print:border-blue-200">
+                                <img src="max.jpg" 
+                                     alt="Staff" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h5 class="font-medium text-blue-800 print:text-blue-900">Maxwell Shabanji</h5>
+                                <p class="text-sm text-blue-600 print:text-blue-700">Recruitment Officer, 5 years</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 italic print:text-black">"What sets Dadiedonta apart is our genuine care for candidates. We don't just fill positions - we transform lives. Seeing Kenyan professionals thrive abroad makes every challenge worthwhile."</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-sm print:shadow-none print:border print:border-blue-100">
+                        <div class="flex items-center mb-4">
+                            <div class="w-14 h-14 rounded-full bg-blue-100 overflow-hidden mr-4 print:border print:border-blue-200">
+                                <img src="quin.jpg" 
+                                     alt="Staff" class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h5 class="font-medium text-blue-800 print:text-blue-900">Quinila Litu</h5>
+                                <p class="text-sm text-blue-600 print:text-blue-700">Visa Specialist, 3 years</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700 italic print:text-black">"Our meticulous document processing ensures Kenyan candidates face no issues when traveling. It's challenging but fulfilling work knowing we're helping families build better futures."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Services -->
+        <div class="page-section">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-semibold text-blue-800 mb-2">Our Comprehensive Services</h3>
+                <p class="text-gray-600 max-w-2xl mx-auto">End-to-end solutions for Kenyan professionals seeking Gulf opportunities</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="flex bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-xl h-16 w-16 flex items-center justify-center mr-6 flex-shrink-0">
+                        <i class="fas fa-briefcase text-blue-600 text-2xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-semibold text-blue-700 mb-2">Job Placement</h4>
+                        <p class="text-gray-700">We connect qualified Kenyan candidates with verified employers across Gulf countries in hospitality, healthcare, construction, and domestic sectors.</p>
+                    </div>
+                </div>
+                
+                <div class="flex bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-xl h-16 w-16 flex items-center justify-center mr-6 flex-shrink-0">
+                        <i class="fas fa-passport text-blue-600 text-2xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-semibold text-blue-700 mb-2">Visa Processing</h4>
+                        <p class="text-gray-700">Complete visa application support including documentation, medical tests at approved Kenyan centers, and embassy coordination.</p>
+                    </div>
+                </div>
+                
+                <div class="flex bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-xl h-16 w-16 flex items-center justify-center mr-6 flex-shrink-0">
+                        <i class="fas fa-graduation-cap text-blue-600 text-2xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-semibold text-blue-700 mb-2">Cultural Training</h4>
+                        <p class="text-gray-700">Comprehensive pre-departure orientation covering cultural norms, basic Arabic, workplace expectations, and legal rights for Kenyan workers.</p>
+                    </div>
+                </div>
+                
+                <div class="flex bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-blue-100 p-4 rounded-xl h-16 w-16 flex items-center justify-center mr-6 flex-shrink-0">
+                        <i class="fas fa-hands-helping text-blue-600 text-2xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-semibold text-blue-700 mb-2">Post-Placement Support</h4>
+                        <p class="text-gray-700">Ongoing assistance with accommodation, contract renewals, and career development for Kenyans in host countries.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl p-8 text-white">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-6 md:mb-0 md:pr-8">
+                        <h4 class="text-2xl font-semibold mb-4">Why Kenyan Professionals Choose Us</h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle mt-1 mr-3 text-blue-200"></i>
+                                <span>90% placement success rate since 2010</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle mt-1 mr-3 text-blue-200"></i>
+                                <span>Direct relationships with Gulf employers</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle mt-1 mr-3 text-blue-200"></i>
+                                <span>Transparent fee structure compliant with Kenyan law</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle mt-1 mr-3 text-blue-200"></i>
+                                <span>24/7 support for candidates abroad</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                             alt="Success" class="w-full rounded-lg shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Target Industries -->
+        <div class="page-section">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-semibold text-blue-800 mb-2">Our Target Industries</h3>
+                <p class="text-gray-600 max-w-2xl mx-auto">Specialized recruitment for key sectors with high demand for Kenyan professionals</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mb-12">
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300 border border-blue-100">
+                    <div class="bg-blue-100 p-4 rounded-lg inline-flex mb-4">
+                        <i class="fas fa-hotel text-blue-600 text-2xl"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-blue-700 mb-2">Hospitality</h4>
+                    <p class="text-gray-700 text-sm">Hotels, resorts, restaurants recruiting Kenyan chefs, waitstaff, and management</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300 border border-blue-100">
+                    <div class="bg-blue-100 p-4 rounded-lg inline-flex mb-4">
+                        <i class="fas fa-hard-hat text-blue-600 text-2xl"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-blue-700 mb-2">Construction</h4>
+                    <p class="text-gray-700 text-sm">Skilled Kenyan laborers, foremen, and engineers for Gulf projects</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300 border border-blue-100">
+                    <div class="bg-blue-100 p-4 rounded-lg inline-flex mb-4">
+                        <i class="fas fa-user-md text-blue-600 text-2xl"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-blue-700 mb-2">Healthcare</h4>
+                    <p class="text-gray-700 text-sm">Kenyan nurses, caregivers, and medical technicians</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300 border border-blue-100">
+                    <div class="bg-blue-100 p-4 rounded-lg inline-flex mb-4">
+                        <i class="fas fa-car text-blue-600 text-2xl"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-blue-700 mb-2">Drivers</h4>
+                    <p class="text-gray-700 text-sm">Kenyan heavy and light vehicle drivers</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300 border border-blue-100">
+                    <div class="bg-blue-100 p-4 rounded-lg inline-flex mb-4">
+                        <i class="fas fa-tools text-blue-600 text-2xl"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-blue-700 mb-2">Technicians</h4>
+                    <p class="text-gray-700 text-sm">Kenyan electrical, mechanical, and HVAC specialists</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition duration-300 border border-blue-100">
+                    <div class="bg-blue-100 p-4 rounded-lg inline-flex mb-4">
+                        <i class="fas fa-broom text-blue-600 text-2xl"></i>
+                    </div>
+                    <h4 class="font-semibold text-lg text-blue-700 mb-2">Domestic Staff</h4>
+                    <p class="text-gray-700 text-sm">Kenyan housekeepers, nannies, and cooks</p>
+                </div>
+            </div>
+            
+            <div class="bg-blue-50 rounded-xl p-8">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-6 md:mb-0 md:pr-8">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3aa57c50676?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                             alt="Industry" class="w-full rounded-lg shadow-md">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h4 class="text-xl font-semibold text-blue-700 mb-4">Industry-Specific Recruitment</h4>
+                        <p class="text-gray-700 mb-4">We specialize in these sectors because:</p>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-blue-500 mr-2 mt-1"></i>
+                                <span>Proven demand for Kenyan professionals</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-blue-500 mr-2 mt-1"></i>
+                                <span>Established employer networks in Gulf countries</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-blue-500 mr-2 mt-1"></i>
+                                <span>Specialized training programs for each sector</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-blue-500 mr-2 mt-1"></i>
+                                <span>Strong track record of successful placements</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Countries We Serve -->
+        <div class="page-section">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-semibold text-blue-800 mb-2">Gulf Countries We Serve</h3>
+                <p class="text-gray-600 max-w-2xl mx-auto">Expanding opportunities for Kenyans across the Arabian Peninsula</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6 mb-12">
+                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                    <img src="https://flagcdn.com/w320/sa.png" alt="Saudi Arabia" class="country-flag mx-auto mb-4">
+                    <h4 class="font-semibold text-lg text-blue-700 mb-1">Saudi Arabia</h4>
+                    <p class="text-gray-600 text-sm">Riyadh, Jeddah, Dammam</p>
+                    <div class="mt-3 text-sm text-gray-700">
+                        <p>Our largest market with 45% of placements</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                    <img src="https://flagcdn.com/w320/ae.png" alt="UAE" class="country-flag mx-auto mb-4">
+                    <h4 class="font-semibold text-lg text-blue-700 mb-1">United Arab Emirates</h4>
+                    <p class="text-gray-600 text-sm">Dubai, Abu Dhabi, Sharjah</p>
+                    <div class="mt-3 text-sm text-gray-700">
+                        <p>30% of our placements in this dynamic market</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                    <img src="https://flagcdn.com/w320/qa.png" alt="Qatar" class="country-flag mx-auto mb-4">
+                    <h4 class="font-semibold text-lg text-blue-700 mb-1">Qatar</h4>
+                    <p class="text-gray-600 text-sm">Doha, Al Wakrah</p>
+                    <div class="mt-3 text-sm text-gray-700">
+                        <p>Growing demand for Kenyan professionals</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                    <img src="https://flagcdn.com/w320/kw.png" alt="Kuwait" class="country-flag mx-auto mb-4">
+                    <h4 class="font-semibold text-lg text-blue-700 mb-1">Kuwait</h4>
+                    <p class="text-gray-600 text-sm">Kuwait City</p>
+                    <div class="mt-3 text-sm text-gray-700">
+                        <p>Specializing in healthcare placements</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                    <img src="https://flagcdn.com/w320/om.png" alt="Oman" class="country-flag mx-auto mb-4">
+                    <h4 class="font-semibold text-lg text-blue-700 mb-1">Oman</h4>
+                    <p class="text-gray-600 text-sm">Muscat, Salalah</p>
+                    <div class="mt-3 text-sm text-gray-700">
+                        <p>Emerging market with quality opportunities</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                    <img src="https://flagcdn.com/w320/bh.png" alt="Bahrain" class="country-flag mx-auto mb-4">
+                    <h4 class="font-semibold text-lg text-blue-700 mb-1">Bahrain</h4>
+                    <p class="text-gray-600 text-sm">Manama</p>
+                    <div class="mt-3 text-sm text-gray-700">
+                        <p>Focus on hospitality and domestic staff</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-blue-800 rounded-xl p-8 text-white">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-6 md:mb-0 md:pr-8">
+                        <h4 class="text-2xl font-semibold mb-4">Our Gulf Representative</h4>
+                        <p class="mb-4">We maintain direct representation in all major Gulf countries to support Kenyan professionals:</p>
+                        <ul class="space-y-2">
+                            <li class="flex items-start">
+                                
+                                <i class="fas fa-check-circle text-blue-200 mr-2 mt-1"></i>
+                                <span>Local Representative in all major Gulf countries</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-200 mr-2 mt-1"></i>
+                                <span>24/7 Kenyan support</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-200 mr-2 mt-1"></i>
+                                <span>Regular visits from Nairobi</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-200 mr-2 mt-1"></i>
+                                <span>Annual welfare checks</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-blue-200 mr-2 mt-1"></i>
+                                <span>JOSEPH KONGO MUSAI - Local Representative in Qatar</span>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="joseph.jpg" 
+                             alt="Gulf" class="w-full rounded-lg shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Our Partners -->
+        <div class="page-section">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-semibold text-blue-800 mb-2">Our Trusted Partners</h3>
+                <p class="text-gray-600 max-w-2xl mx-auto">Collaborating with reputable organizations in Kenya and the Gulf region</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+                <div class="bg-white p-6 rounded-xl border border-blue-100 flex items-center justify-center h-40">
+                    <img src="https://via.placeholder.com/200x80?text=Ministry+of+Labour" alt="Ministry of Labour" class="partner-logo">
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-blue-100 flex items-center justify-center h-40">
+                    <img src="https://via.placeholder.com/200x80?text=Kenya+Association" alt="Kenya Association" class="partner-logo">
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-blue-100 flex items-center justify-center h-40">
+                    <img src="https://via.placeholder.com/200x80?text=Gulf+Recruitment" alt="Gulf Recruitment" class="partner-logo">
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-blue-100 flex items-center justify-center h-40">
+                    <img src="https://via.placeholder.com/200x80?text=Training+Partner" alt="Training Partner" class="partner-logo">
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-blue-100 flex items-center justify-center h-40">
+                    <img src="https://via.placeholder.com/200x80?text=Medical+Center" alt="Medical Center" class="partner-logo">
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-blue-100 flex items-center justify-center h-40">
+                    <img src="https://via.placeholder.com/200x80?text=Gulf+Employer" alt="Gulf Employer" class="partner-logo">
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-blue-100 flex items-center justify-center h-40">
+                    <img src="https://via.placeholder.com/200x80?text=Banking+Partner" alt="Banking Partner" class="partner-logo">
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-blue-100 flex items-center justify-center h-40">
+                    <img src="https://via.placeholder.com/200x80?text=Travel+Agency" alt="Travel Agency" class="partner-logo">
+                </div>
+            </div>
+            
+            <div class="bg-blue-50 rounded-xl p-8">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-6 md:mb-0 md:pr-8">
+                        <h4 class="text-xl font-semibold text-blue-700 mb-4">Strategic Partnerships</h4>
+                        <p class="text-gray-700 mb-4">Our network ensures quality opportunities for Kenyan candidates:</p>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-1 mr-3 flex-shrink-0">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>Official recognition from Kenyan Ministry of Labour</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-1 mr-3 flex-shrink-0">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>Accredited training partners in Nairobi</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-1 mr-3 flex-shrink-0">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>Preferred recruitment agency for major Gulf employers</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-1 mr-3 flex-shrink-0">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>Banking partners for secure financial transactions</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                             alt="Partnership" class="w-full rounded-lg shadow-md">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Success Stories -->
+        <div class="page-section">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-semibold text-blue-800 mb-2">Success Stories</h3>
+                <p class="text-gray-600 max-w-2xl mx-auto">Transforming Kenyan lives through overseas employment</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="w-20 h-20 rounded-full bg-blue-100 overflow-hidden mr-4">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Candidate" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h5 class="font-medium text-lg text-blue-800">James Omondi</h5>
+                            <p class="text-blue-600">HVAC Technician in Dubai</p>
+                            <div class="flex mt-1 text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">"Dadiedonta helped me secure a position in Dubai with a salary 5 times what I earned in Nairobi. Their pre-departure training prepared me well for the cultural differences. After 2 years, I've built a house for my family in Kajiado and started a small business for my wife."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 p-2 rounded-full mr-3">
+                            <i class="fas fa-quote-left text-blue-600"></i>
+                        </div>
+                        <p class="text-sm text-gray-600">Placed in 2021 • Salary: KES 250,000/month</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="w-20 h-20 rounded-full bg-blue-100 overflow-hidden mr-4">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Candidate" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h5 class="font-medium text-lg text-blue-800">Mary Wambui</h5>
+                            <p class="text-blue-600">Nurse in Riyadh</p>
+                            <div class="flex mt-1 text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">"As a single mother from Nakuru, working in Saudi Arabia has transformed our lives. Dadiedonta's support didn't end with placement - they helped me navigate challenges during my first months abroad. I've paid school fees for my three children and saved enough to buy land back home."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 p-2 rounded-full mr-3">
+                            <i class="fas fa-quote-left text-blue-600"></i>
+                        </div>
+                        <p class="text-sm text-gray-600">Placed in 2020 • Salary: KES 180,000/month</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="w-20 h-20 rounded-full bg-blue-100 overflow-hidden mr-4">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Candidate" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h5 class="font-medium text-lg text-blue-800">Mary Wambui</h5>
+                            <p class="text-blue-600">Nurse in Riyadh</p>
+                            <div class="flex mt-1 text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">"As a single mother from Nakuru, working in Saudi Arabia has transformed our lives. Dadiedonta's support didn't end with placement - they helped me navigate challenges during my first months abroad. I've paid school fees for my three children and saved enough to buy land back home."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 p-2 rounded-full mr-3">
+                            <i class="fas fa-quote-left text-blue-600"></i>
+                        </div>
+                        <p class="text-sm text-gray-600">Placed in 2020 • Salary: KES 180,000/month</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="w-20 h-20 rounded-full bg-blue-100 overflow-hidden mr-4">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Candidate" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h5 class="font-medium text-lg text-blue-800">Mary Wambui</h5>
+                            <p class="text-blue-600">Nurse in Riyadh</p>
+                            <div class="flex mt-1 text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">"As a single mother from Nakuru, working in Saudi Arabia has transformed our lives. Dadiedonta's support didn't end with placement - they helped me navigate challenges during my first months abroad. I've paid school fees for my three children and saved enough to buy land back home."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 p-2 rounded-full mr-3">
+                            <i class="fas fa-quote-left text-blue-600"></i>
+                        </div>
+                        <p class="text-sm text-gray-600">Placed in 2020 • Salary: KES 180,000/month</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="w-20 h-20 rounded-full bg-blue-100 overflow-hidden mr-4">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Candidate" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h5 class="font-medium text-lg text-blue-800">Mary Wambui</h5>
+                            <p class="text-blue-600">Nurse in Riyadh</p>
+                            <div class="flex mt-1 text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">"As a single mother from Nakuru, working in Saudi Arabia has transformed our lives. Dadiedonta's support didn't end with placement - they helped me navigate challenges during my first months abroad. I've paid school fees for my three children and saved enough to buy land back home."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 p-2 rounded-full mr-3">
+                            <i class="fas fa-quote-left text-blue-600"></i>
+                        </div>
+                        <p class="text-sm text-gray-600">Placed in 2020 • Salary: KES 180,000/month</p>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="w-20 h-20 rounded-full bg-blue-100 overflow-hidden mr-4">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Candidate" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h5 class="font-medium text-lg text-blue-800">Mary Wambui</h5>
+                            <p class="text-blue-600">Nurse in Riyadh</p>
+                            <div class="flex mt-1 text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-6 italic">"As a single mother from Nakuru, working in Saudi Arabia has transformed our lives. Dadiedonta's support didn't end with placement - they helped me navigate challenges during my first months abroad. I've paid school fees for my three children and saved enough to buy land back home."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 p-2 rounded-full mr-3">
+                            <i class="fas fa-quote-left text-blue-600"></i>
+                        </div>
+                        <p class="text-sm text-gray-600">Placed in 2020 • Salary: KES 180,000/month</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl p-8 text-white">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h4 class="text-2xl font-semibold mb-4">Over 5,000 Kenyan Professionals Placed Since 2010</h4>
+                    <p class="mb-6">Our candidates have collectively remitted over KES 3 billion to Kenya, supporting families and contributing to national development.</p>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        <div class="bg-white bg-opacity-10 p-4 rounded-lg">
+                            <p class="text-3xl font-bold mb-1">2,300+</p>
+                            <p class="text-sm">Hospitality Staff</p>
+                        </div>
+                        <div class="bg-white bg-opacity-10 p-4 rounded-lg">
+                            <p class="text-3xl font-bold mb-1">1,500+</p>
+                            <p class="text-sm">Healthcare Workers</p>
+                        </div>
+                        <div class="bg-white bg-opacity-10 p-4 rounded-lg">
+                            <p class="text-3xl font-bold mb-1">800+</p>
+                            <p class="text-sm">Construction Experts</p>
+                        </div>
+                        <div class="bg-white bg-opacity-10 p-4 rounded-lg">
+                            <p class="text-3xl font-bold mb-1">400+</p>
+                            <p class="text-sm">Domestic Staff</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Recruitment Process -->
+        <div class="page-section">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-semibold text-blue-800 mb-2">Our Recruitment Process</h3>
+                <p class="text-gray-600 max-w-2xl mx-auto">Transparent, efficient steps from Nairobi to Gulf placement</p>
+            </div>
+            
+            <div class="relative mb-12">
+                <!-- Timeline line -->
+                <div class="hidden md:block absolute h-full w-1 bg-blue-200 left-1/2 transform -translate-x-1/2 top-0"></div>
+                
+                <!-- Steps -->
+                <div class="space-y-12">
+                    <!-- Step 1 -->
+                    <div class="relative flex flex-col md:flex-row items-center">
+                        <div class="flex justify-center md:justify-start w-full md:w-1/2 md:pr-12 mb-6 md:mb-0">
+                            <div class="bg-blue-600 text-white p-6 rounded-full shadow-lg w-24 h-24 flex items-center justify-center">
+                                <span class="text-2xl font-bold">1</span>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 md:pl-12">
+                            <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                                <h4 class="text-xl font-semibold text-blue-700 mb-2">Candidate Registration</h4>
+                                <p class="text-gray-700">Submit your details, qualifications, and work experience through our Nairobi office or online portal. Initial screening ensures you meet basic requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2 -->
+                    <div class="relative flex flex-col md:flex-row items-center">
+                        <div class="flex justify-center md:justify-end w-full md:w-1/2 md:pr-12 order-1 mb-6 md:mb-0">
+                            <div class="w-full">
+                                <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                                    <h4 class="text-xl font-semibold text-blue-700 mb-2">Document Verification</h4>
+                                    <p class="text-gray-700">Our Kenyan team verifies all submitted documents for authenticity and compliance with Gulf requirements. This includes certificates, passports, and references.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center md:justify-start w-full md:w-1/2 md:pl-12 order-0 md:order-2">
+                            <div class="bg-blue-600 text-white p-6 rounded-full shadow-lg w-24 h-24 flex items-center justify-center">
+                                <span class="text-2xl font-bold">2</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 3 -->
+                    <div class="relative flex flex-col md:flex-row items-center">
+                        <div class="flex justify-center md:justify-start w-full md:w-1/2 md:pr-12 mb-6 md:mb-0">
+                            <div class="bg-blue-600 text-white p-6 rounded-full shadow-lg w-24 h-24 flex items-center justify-center">
+                                <span class="text-2xl font-bold">3</span>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 md:pl-12">
+                            <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                                <h4 class="text-xl font-semibold text-blue-700 mb-2">Interview & Selection</h4>
+                                <p class="text-gray-700">Candidates undergo interviews with our Nairobi team and potential employers via video call. Successful candidates receive detailed job offers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 4 -->
+                    <div class="relative flex flex-col md:flex-row items-center">
+                        <div class="flex justify-center md:justify-end w-full md:w-1/2 md:pr-12 order-1 mb-6 md:mb-0">
+                            <div class="w-full">
+                                <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                                    <h4 class="text-xl font-semibold text-blue-700 mb-2">Visa Processing</h4>
+                                    <p class="text-gray-700">We handle all visa formalities including medical tests at approved Kenyan centers and embassy submissions. Typically takes 4-6 weeks.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-center md:justify-start w-full md:w-1/2 md:pl-12 order-0 md:order-2">
+                            <div class="bg-blue-600 text-white p-6 rounded-full shadow-lg w-24 h-24 flex items-center justify-center">
+                                <span class="text-2xl font-bold">4</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 5 -->
+                    <div class="relative flex flex-col md:flex-row items-center">
+                        <div class="flex justify-center md:justify-start w-full md:w-1/2 md:pr-12 mb-6 md:mb-0">
+                            <div class="bg-blue-600 text-white p-6 rounded-full shadow-lg w-24 h-24 flex items-center justify-center">
+                                <span class="text-2xl font-bold">5</span>
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2 md:pl-12">
+                            <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                                <h4 class="text-xl font-semibold text-blue-700 mb-2">Deployment</h4>
+                                <p class="text-gray-700">Final travel arrangements from JKIA including flight tickets, airport pickup, and accommodation in host country. Our support continues post-arrival.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-blue-50 rounded-xl p-8">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-6 md:mb-0 md:pr-8">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                             alt="Process" class="w-full rounded-lg shadow-md">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h4 class="text-xl font-semibold text-blue-700 mb-4">Why Our Process Works</h4>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-1 mr-3 flex-shrink-0">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>Average placement time: 8-12 weeks</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-1 mr-3 flex-shrink-0">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>Clear communication at every stage</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-1 mr-3 flex-shrink-0">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>No hidden fees - compliant with Kenyan regulations</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="bg-blue-100 text-blue-600 rounded-full p-1 mr-3 flex-shrink-0">
+                                    <i class="fas fa-check text-xs"></i>
+                                </div>
+                                <span>Dedicated case manager for each candidate</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Director's Message -->
+        <div class="page-section">
+            <div class="bg-gradient-to-br from-blue-700 to-blue-900 rounded-xl p-12 text-white relative overflow-hidden">
+                <div class="absolute inset-0 bg-opacity-20 bg-white"></div>
+                <div class="relative z-10 flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">
+                        <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-xl">
+                            <img src="evelyn.jpg" 
+                                 alt="Director" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="md:w-2/3 md:pl-12">
+                        <h3 class="text-3xl font-semibold mb-6">Message From Our Director</h3>
+                        <div class="space-y-4 mb-6">
+                            <p>"When I founded Dadiedonta Enterprises in 2010, my vision was simple: to create ethical pathways for Kenyan professionals to access Gulf opportunities while protecting their rights and dignity. Over a decade later, that vision remains at our core."</p>
+                            <p>"We take pride in being a Kenyan company that understands both the aspirations of our candidates and the expectations of Gulf employers. Our Nairobi-based team personally vets every opportunity to ensure fair treatment and competitive compensation."</p>
+                            <p>"As we look ahead, we're committed to expanding our services while maintaining the personal touch that has made us Kenya's most trusted recruitment partner for Gulf employment. We measure our success not just in placements, but in the positive impact on Kenyan families and communities."</p>
+                        </div>
+                        <div class="flex items-center">
+                            <div>
+                                <p class="font-semibold text-lg">Everlyne Namwendwa</p>
+                                <p class="text-blue-200">Founder & Director</p>
+                                <p class="text-blue-200">Dadiedonta Enterprises Limited</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                    <div class="bg-blue-100 p-4 rounded-lg inline-flex mb-4">
+                        <i class="fas fa-calendar-check text-blue-600 text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold text-blue-700 mb-2">Our Track Record</h4>
+                    <p class="text-gray-700">13 years of successful placements with thousands of satisfied Kenyan candidates and employers.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                    <div class="bg-blue-100 p-4 rounded-lg inline-flex mb-4">
+                        <i class="fas fa-hand-holding-heart text-blue-600 text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold text-blue-700 mb-2">Our Commitment</h4>
+                    <p class="text-gray-700">Ethical recruitment practices that prioritize candidate welfare and employer satisfaction.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-blue-100">
+                    <div class="bg-blue-100 p-4 rounded-lg inline-flex mb-4">
+                        <i class="fas fa-rocket text-blue-600 text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-semibold text-blue-700 mb-2">Our Future</h4>
+                    <p class="text-gray-700">Expanding opportunities while maintaining the quality and integrity that define our brand.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contact -->
+        <div class="page-section">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-semibold text-blue-800 mb-2">Contact Us</h3>
+                <p class="text-gray-600 max-w-2xl mx-auto">Get in touch with Kenya's premier Gulf recruitment specialists</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 mb-12">
+                <div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm print:shadow-none print:border print:border-blue-200">
+                        <h4 class="text-xl font-semibold text-blue-700 mb-6 print:text-blue-800">Our Nairobi Office</h4>
+                        
+                        <div class="flex items-start mb-6">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 print:bg-blue-50 print:border print:border-blue-200">
+                                <i class="fas fa-map-marker-alt text-blue-600 print:text-blue-700"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-blue-800 mb-1">Headquarters</h5>
+                                <p class="text-gray-700">Delta, Ground Floor Room G05<br>
+                                University Way, Nairobi CBD<br>
+                                Kenya</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start mb-6">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 print:bg-blue-50 print:border print:border-blue-200">
+                                <i class="fas fa-phone-alt text-blue-600 print:text-blue-700"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-blue-800 mb-1">Phone</h5>
+                                <p class="text-gray-700">+254 798 841733<br>+254 704 859619</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start mb-6">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 print:bg-blue-50 print:border print:border-blue-200">
+                                <i class="fas fa-envelope text-blue-600 print:text-blue-700"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-blue-800 mb-1">Email</h5>
+                                <p class="text-gray-700">info@dadiedonta.co.ke<br>recruitment@dadiedonta.co.ke</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 print:bg-blue-50 print:border print:border-blue-200">
+                                <i class="fas fa-clock text-blue-600 print:text-blue-700"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-blue-800 mb-1">Office Hours</h5>
+                                <p class="text-gray-700">Mon-Fri: 8:00 AM - 5:00 PM<br>
+                                Sat: 9:00 AM - 2:00 PM<br>
+                                Sun: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm h-full print:shadow-none print:border print:border-blue-200">
+                        <h4 class="text-xl font-semibold text-blue-700 mb-6 print:text-blue-800">Visit Our Office</h4>
+                        <div class="bg-gray-200 rounded-lg overflow-hidden mb-6" style="padding-bottom: 75%; position: relative;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8166770516584!2d36.81391827497864!3d-1.2892612356433818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d0f2df8b75%3A0xda1f0a4b59171ad0!2sDelta%20Corner%20Building!5e0!3m2!1sen!2ske!4v1684918014673!5m2!1sen!2ske" 
+                                    width="100%" height="100%" style="position: absolute; top: 0; left: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <h5 class="font-semibold text-blue-800 mb-3">Follow Us</h5>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-blue-100 hover:bg-blue-200 p-3 rounded-full text-blue-600 transition duration-300">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="bg-blue-100 hover:bg-blue-200 p-3 rounded-full text-blue-600 transition duration-300">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="bg-blue-100 hover:bg-blue-200 p-3 rounded-full text-blue-600 transition duration-300">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="bg-blue-100 hover:bg-blue-200 p-3 rounded-full text-blue-600 transition duration-300">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-blue-50 rounded-xl p-8 print:mt-8 print:border print:border-blue-200">
+                <div class="text-center">
+                    <h4 class="text-xl font-semibold text-blue-700 mb-2">Begin Your Gulf Opportunity Today</h4>
+                    <p class="text-gray-700 mb-6 max-w-2xl mx-auto">Contact our Nairobi office to schedule a consultation with our recruitment specialists</p>
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium shadow-md transition duration-300">
+                        Schedule Consultation
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="page-section gradient-bg text-white">
+            <div class="flex flex-col items-center justify-center h-full text-center py-20">
+                <div class="mb-8">
+                    <img src="logo2.png" alt="Logo" class="h-16 mx-auto">
+                </div>
+                <h2 class="text-3xl font-semibold mb-4">Dadiedonta Enterprises Limited</h2>
+                <p class="text-xl opacity-90 mb-8">Kenya's Trusted Partner for Gulf Employment</p>
+                
+                <div class="w-48 h-1 bg-white bg-opacity-30 rounded-full mb-8"></div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-sm mb-8">
+                    <div>
+                        <h5 class="font-semibold mb-2">Legal</h5>
+                        <p>Licensed by NEA Kenya</p>
+                        <p>Member of KAPEA</p>
+                    </div>
+                    <div>
+                        <h5 class="font-semibold mb-2">Certifications</h5>
+                        <p>ISO 9001 Certified</p>
+                        <p>Ministry of Labour Approved</p>
+                    </div>
+                    <div>
+                        <h5 class="font-semibold mb-2">Commitments</h5>
+                        <p>Ethical Recruitment Policy</p>
+                        <p>Candidate Welfare Charter</p>
+                    </div>
+                </div>
+                
+                <p class="text-sm opacity-80">© <span id="year"></span> Dadiedonta Enterprises Limited. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="co.js"></script>
+</body>
+</html>

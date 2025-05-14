@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8fafc;
+}
+
+.print-container {
+    max-width: 210mm;
+    margin: 0 auto;
+    background: white;
+}
+
+.page-section {
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+}
+
+.hero-pattern {
+    background-image: radial-gradient(rgba(30, 58, 138, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+}
+
+.testimonial-card {
+    background: linear-gradient(to bottom, #ffffff 0%, #f0f7ff 100%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.country-flag {
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.partner-logo {
+    height: 70px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.partner-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+@media print {
+    body {
+        background: white;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+    .page-section {
+        padding: 20mm;
+        page-break-before: always;
+        page-break-after: always;
+        page-break-inside: avoid !important;
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .page-section > * {
+        page-break-inside: avoid !important;
+    }
+    .no-print {
+        display: none !important;
+    }
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
